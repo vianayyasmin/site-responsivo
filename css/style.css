@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+* {
+    font-family: 'RocknRoll One', sans-serif;
+      margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-image: url(https://i0.wp.com/kawaiihoshi.com/wp-content/uploads/2022/12/sanrio-strawberry-news-characters-poster-2022-wallpaper-kawaii-hoshi.jpg?fit=1536%2C1058&ssl=1);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: #023047;
+  background-attachment: local;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 4em;
+  margin: 0 auto;
+  background-color: #edf6f9;
+  color: #023047;
+}
+
+.img-main {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.content-main {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  border-radius: 2em;
+}
+
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.s1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffd9da;
+  color: #89023e;
+}
+
+.s1 img {
+  height: 90vh;
+}
+
+.s1 div {
+  text-align: center;
+  padding: 50px;
+}
+
+.s1 h2 {
+  margin-bottom: 30px;
+}
+
+.s2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffb3c6;
+  color: #fb6f92;
+}
+
+.s2 img {
+  height: 90vh;
+}
+
+.s2 div {
+  text-align: center;
+  padding: 50px;
+}
+
+.s2 h2 {
+  margin-bottom: 30px;
+}
+
+.s3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffa9e7;
+  color: #7f2ccb;
+}
+
+.s3 img {
+  height: 100vh;
+}
+
+.s3 div {
+  text-align: center;
+  padding: 50px;
+}
+
+.s3 h2 {
+  margin-bottom: 30px;
+}
+
+#contato {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #edf6f9;
+}
+
+.bnt {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, #ffa9e7, #ffa9e7);
+  width: 25vh;
+  border-radius: 30px;
+  padding: 15px;
+  outline: 0;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+
+.bnt:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, #7f2ccb, #7f2ccb);
+  color: white;
+}
+
+.f1 {
+  text-align: center;
+  background-color: #023047;
+  color: #caf0f8;
+}
+
+@media (max-width: 800px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+
+  .content-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 80%;
+  }
+
+  .s1 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+  }
+
+  .s1 img {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .s2 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .s2 img {
+    width: 100%;
+    height: 100vh;
+  }
+  .s3 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+  }
+
+  .s3 img {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.bnt {
+  padding-top: 2em;
+  border-radius: 1em;
+  padding: 1em;
+  align-items: center;
+  cursor: pointer;
+  color: #023047;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, #edf6f9, #edf6f9);
+}
+
+.bnt:hover {
+  color: #edf6f9;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, #023047, #023047);
+}
