@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 * {
-    font-family: 'RocknRoll One', sans-serif;
-      margin: 0;
+  font-family: 'RocknRoll One', sans-serif;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -31,7 +31,7 @@ main {
 .img-main {
   width: 250px;
   height: 250px;
-  border-radius: 40%;
+  border-radius: 100%;
   margin-bottom: 2em;
   margin-top: 2em;
 }
@@ -56,10 +56,12 @@ section {
   justify-content: space-between;
   background-color: #ffd9da;
   color: #89023e;
+  height: 110vh;
 }
 
 .s1 img {
-  height: 90vh;
+  height: 200px;
+  margin-right: 20px;
 }
 
 .s1 div {
@@ -77,10 +79,12 @@ section {
   justify-content: space-between;
   background-color: #ffb3c6;
   color: #fb6f92;
+  height: 110vh;
 }
 
 .s2 img {
-  height: 90vh;
+  height: 200px;
+  margin-left: 50px;
 }
 
 .s2 div {
@@ -98,10 +102,12 @@ section {
   justify-content: space-between;
   background-color: #ffa9e7;
   color: #7f2ccb;
+  height: 110vh;
 }
 
 .s3 img {
-  height: 100vh;
+  height: 200px;
+  margin-right: 20px;
 }
 
 .s3 div {
